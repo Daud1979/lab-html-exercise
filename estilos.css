@@ -9,6 +9,8 @@ header > div {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid lightgray;
+    flex-direction: column;
+    
   }
   
   nav {
@@ -31,3 +33,93 @@ header > div {
     width: 20px;
     margin-right: 1rem;
   }
+  .header-div-uno{
+    display: flex;    
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    
+  }
+  .header-div-dos{   
+    display: flex;    
+    align-items: center;    
+    width: 100%;
+    gap: 1rem;
+    padding: 0.5rem;
+    
+  }
+
+.npm-logo{
+    width: 80px;
+}
+.header-div-dos__button
+{
+ 
+  width: 10%;
+}
+.header-div-dos__button a{
+  text-decoration: none;
+  color: rgba(0,0,0,0.5);
+}
+.header-div-dos__button :first-child{
+  border: 1px solid rgba(0,0,0,.09);
+  padding: 0.2rem 0.6rem;
+  margin-right: 15px;
+}
+.formulario{
+  display: inline-flex;
+  width: 100%;
+  
+}
+.formulario input{
+  padding: 0.2rem 0.6rem;
+  display: inline-flex;
+  width: 100%;
+  background-color:  rgba(0,0,0,.04);
+  border: none;
+  border-radius: 5px;
+}
+.formulario button{
+  padding: 0.4rem 0.6rem;
+  color: white;
+  background-color: red;
+  border: none;
+}
+.seccionUno{
+  padding-top: 2rem; 
+  background-color: #F8F4F4; 
+}
+.seccionUno h1{
+  font-size: 3rem;
+  text-align: center;  
+}
+.seccionUno article{
+  width: 27%;
+  margin: 0 auto;
+  text-align: center;
+}
+.seccionUno div{
+  padding: 30px 0px;
+  width: 27%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+.seccionUno div>a{
+text-decoration: none;
+
+}
+.botonUno{
+  background-color: red;
+  color: white;
+  box-shadow: 6px 5px rgb(238, 139, 139);
+  padding: 0.7rem 2rem;
+}
+
+.botonDos{
+  background-color: rgb(214, 210, 210);
+  color: rgb(14, 13, 13);
+  font-weight: bold;
+  padding: 0.7rem 2rem;
+}
